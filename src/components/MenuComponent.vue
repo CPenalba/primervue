@@ -22,6 +22,9 @@
       <li>
         <router-link to="/pareimpar">Par e impar</router-link>
       </li>
+      <li>
+        <router-link to="/metodosfilters">Metodos filters</router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -36,7 +39,7 @@ export default {
 ul#menu li {
   display: inline;
 }
-li{
-  margin:10px;
+li {
+  margin: 10px;
 }
 </style>

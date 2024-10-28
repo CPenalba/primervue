@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>Número Par Impar</h1>
+    <h2 style="color: pink">
+      Doble: {{ $filters.getNumeroDoble(this.numero) }}
+    </h2>
     <label>Número: </label>
     <input type="number" v-model="numero" />
     <!-- con directivas -->
@@ -32,7 +35,7 @@ export default {
   //en el mismo component con boton
   methods: {
     getEvaluarNumero() {
-        this.html = "";
+      this.html = "";
       if (this.numero % 2 == 0) {
         this.html = "<h3 style='color:green'>Par " + this.numero + "</h3>";
       } else {
