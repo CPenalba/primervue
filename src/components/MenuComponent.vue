@@ -16,6 +16,12 @@
       <li>
         <router-link to="/directivas">Directivas</router-link>
       </li>
+      <li>
+        <router-link to="/propiedad">Propiedad Conmutada</router-link>
+      </li>
+      <li>
+        <router-link to="/pareimpar">Par e impar</router-link>
+      </li>
     </ul>
   </div>
 </template>
@@ -29,5 +35,8 @@ export default {
 <style>
 ul#menu li {
   display: inline;
+}
+li{
+  margin:10px;
 }
 </style>

@@ -5,6 +5,8 @@ import CineComponent from "./components/CineComponent.vue";
 import MusicaComponent from "./components/MusicaComponent.vue";
 import CicloVida from "./components/CicloVida.vue";
 import DirectivasComponent from './components/DirectivasComponent.vue'
+import PropiedadConmutada from './components/PropiedadConmutada.vue'
+import NumeroParImpar from './components/NumeroParImpar.vue'
 
 //creamos una constante array para las rutas
 const myRoutes = [
@@ -13,6 +15,8 @@ const myRoutes = [
   { path: "/cine", component: CineComponent },
   { path: "/ciclo", component: CicloVida },
   { path: "/directivas", component: DirectivasComponent },
+  { path: "/propiedad", component: PropiedadConmutada },
+  { path: "/pareimpar", component: NumeroParImpar },
 ];
 
 //creamos una constante para el historial e incluir el array de rutas
